@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Luongli
-subtitle: Luongli's Personal Website
-description:
-author: John Doe
-language: en
+title: Weird Dream
+subtitle: Practice makes perfect
+description: Information security
+author: weird dream
+language: 
 timezone: Asia/Saigon
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://weird-dream.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -72,9 +72,12 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: false
+theme: landscape
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/weird-dream/weird-dream.github.io.git
+  branch: master
+  name: weird-dream
